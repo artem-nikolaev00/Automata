@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d43255db-9c1b-42d8-81c7-7c406dfdba08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/timing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLY/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLY/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/time.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLYmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLYmain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REG/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/REG/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REG/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/REG/time.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMC/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SMC/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMC/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SMC/time.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator2.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator2.py" afterDir="false" />
-    </list>
+    <list default="true" id="d43255db-9c1b-42d8-81c7-7c406dfdba08" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
