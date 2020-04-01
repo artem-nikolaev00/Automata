@@ -1,0 +1,89 @@
+%start Map::Disk
+%class AutomataAnalyzer 
+
+
+
+%map Map
+
+%%
+
+// State		Transition		End State		Action(s)
+
+
+
+Default{
+				UpperLiter(ch: string)			Error			{ Unacceptable(); }
+                Alpha(ch: string)			    Error			{ Unacceptable(); }
+                Digit(ch: string)			    Error			{ Unacceptable(); }
+                Colon(ch: string)    			Error			{ Unacceptable(); }
+				Point(ch: string)				Error			{ Unacceptable(); }
+				Slash(ch: string)				Error			{ Unacceptable(); }
+				Endl				Error			{ Unacceptable(); }
+				EOS				    Error			{ Unacceptable(); }
+				Disk				Disk			{ ClearSMC(); }
+				Unknown             Error           { Unacceptable(); }
+}
+
+Disk{
+				UpperLiter(ch: String) 				colon		        { Add_str(ch); }
+				
+}
+
+colon{
+				Colon(ch: String)					slash			{ Add_str(ch); }
+}
+
+slash{
+				Slash(ch: String)					way					{ Add_str(ch); }
+}
+
+way{
+				UpperLiter(ch: String) 		catalog		    { CounterInc(); Add_str(ch); }
+				Alpha (ch: String)			catalog			{ CounterInc(); Add_str(ch);}
+				Digit (ch: String)			catalog			{ CounterInc(); Add_str(ch);}
+				Point (ch: String)			point			{ set_name(); CounterZero(); Add_name(ch); clearSubstring(); }
+				Endl()						OK				{set_name();} 
+				EOS							OK				{set_name();}
+}
+
+catalog{
+				UpperLiter(ch: String)[ ctxt.isValidName() ]		catalog				{ CounterInc(); Add_str(ch); }
+				Alpha(ch: String)[ ctxt.isValidName() ]				catalog				{ CounterInc(); Add_str(ch); }
+				Digit(ch: String)[ ctxt.isValidName() ]				catalog				{ CounterInc(); Add_str(ch); }
+				Slash(ch: String)									way					{ set_name(); CounterZero(); Add_name(ch); clearSubstring();}
+				Point(ch: String)									point				{ set_name(); CounterZero(); Add_name(ch); clearSubstring();}
+				Endl()												OK					{set_name();}
+				EOS													OK					{set_name();}
+}
+
+point{
+				UpperLiter(ch: String)				file_name				{CounterInc(); Add_type(ch);}
+				Alpha(ch: String)				file_name				{CounterInc(); Add_type(ch);}
+}
+
+
+file_name{
+				UpperLiter(ch: String)[ctxt.isValidType()]				file_name				{CounterInc(); Add_type(ch);}
+				Alpha(ch: String)[ctxt.isValidType()]				file_name				{CounterInc(); Add_type(ch);}
+				Endl()											OK						{set_type(); }
+				EOS												OK						{set_type(); }
+}
+
+
+
+OK {
+
+                EOS				OK				{ Acceptable(); }
+
+}
+
+
+
+Error {
+
+				EOS				nil				{Unacceptable();}
+
+}
+
+
+%%
