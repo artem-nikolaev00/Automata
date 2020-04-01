@@ -1,4 +1,3 @@
-from collections import Counter
 import string
 import random
 import os

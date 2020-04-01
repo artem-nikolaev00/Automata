@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d43255db-9c1b-42d8-81c7-7c406dfdba08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Regular/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular" beforeDir="false" afterPath="$PROJECT_DIR$/Regular" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/out.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/prog0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/prog1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLY/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLY/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLY/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/time.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLYmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLYmain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/time.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMCmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMCmain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator2.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,8 +140,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Regularmain" />
-        <item itemvalue="Python.SMCmain" />
         <item itemvalue="Python.PLYmain (1)" />
+        <item itemvalue="Python.SMCmain" />
         <item itemvalue="Python.lexer" />
         <item itemvalue="Python.Parser" />
       </list>
@@ -155,29 +158,45 @@
       <option name="presentableId" value="Default" />
       <updated>1585565969741</updated>
     </task>
+    <task id="LOCAL-00001" summary="result+time">
+      <created>1585746299339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585746299340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="result+time" />
+    <option name="LAST_COMMIT_MESSAGE" value="result+time" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585671967617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585671967617" />
-    <state width="1515" height="101" key="GridCell.Tab.0.bottom" timestamp="1585745806807">
+    <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1585746292143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="101" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585745806807" />
-    <state width="1515" height="101" key="GridCell.Tab.0.center" timestamp="1585745806807">
+    <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585746292143" />
+    <state width="1515" height="112" key="GridCell.Tab.0.bottom" timestamp="1585747295091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="101" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585745806807" />
-    <state width="1515" height="101" key="GridCell.Tab.0.left" timestamp="1585745806807">
+    <state width="1515" height="112" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585747295091" />
+    <state width="1515" height="112" key="GridCell.Tab.0.center" timestamp="1585747295090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="101" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585745806807" />
-    <state width="1515" height="101" key="GridCell.Tab.0.right" timestamp="1585745806807">
+    <state width="1515" height="112" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585747295090" />
+    <state width="1515" height="112" key="GridCell.Tab.0.left" timestamp="1585747295090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="101" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585745806807" />
+    <state width="1515" height="112" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585747295090" />
+    <state width="1515" height="112" key="GridCell.Tab.0.right" timestamp="1585747295091">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="112" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585747295091" />
     <state width="1515" height="222" key="GridCell.Tab.1.bottom" timestamp="1585675540735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -198,6 +217,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585736671016" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1585746304746">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585746304746" />
     <state x="361" y="71" key="scopes" timestamp="1585732950450">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

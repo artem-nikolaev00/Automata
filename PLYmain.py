@@ -1,5 +1,4 @@
 import generator2
-import re
 import time
 from PLY.Parser import Parser
 import os

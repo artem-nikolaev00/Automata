@@ -1,5 +1,4 @@
 from SMC import Class_SMC
-import re
 import os
 import time
 import generator2
