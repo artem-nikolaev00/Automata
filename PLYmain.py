@@ -70,7 +70,7 @@ if __name__ == "__main__":
     if n == 1:
         print("Input filename:")
         filename = input()
-        generator2.Generator(1000000, filename).get_file_content()
+        generator2.Generator(10000, filename).get_file_content()
         a = RecognizerPLY(True, filename)
         a.check_from_file()
         try:

@@ -5,7 +5,7 @@ import time
 
 
 class Generator:
-    def __init__(self, num=1000000, input_file='input.txt'):
+    def __init__(self, num=1000000, input_file='input'):
         self.num = num
         self.input_file = input_file + ".txt"
         self.result = []
