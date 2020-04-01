@@ -12,8 +12,8 @@ class Lexer:
     def __init__(self):
         self.lexer = lex.lex(module=self)
 
-    def input(self, data):
-        return self.lexer.input(data)
+    def input(self, string):
+        return self.lexer.input(string)
 
     def token(self):
         return self.lexer.token()
@@ -46,7 +46,7 @@ class Lexer:
         t.lexer.begin('INITIAL')
         return t
 
-# data = ''' C:\\\\.r
+# string = ''' C:\\\\.r
 # '''
 #
 # a = Lexer()

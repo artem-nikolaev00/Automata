@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d43255db-9c1b-42d8-81c7-7c406dfdba08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/REG/result" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/REG/time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLY/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PLYmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLYmain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Regularmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regularmain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SMCmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMCmain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

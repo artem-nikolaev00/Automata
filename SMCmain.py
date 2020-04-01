@@ -31,7 +31,7 @@ class Recognizer:
 
     def check_strings_from_file(self):
         f_time = open(self.time_file, 'w')
-        f_time.write('iter time' + '\n')
+        f_time.write('time' + '\n')
         f_time = open(self.time_file, 'a')
         n = time.perf_counter()
         j = 0
@@ -91,13 +91,13 @@ if __name__ == "__main__":
             print("Time:", nf.split('\n')[1])
             f.close()
         except IOError as e:
-            print("---- Error ----")
+            print("IOError")
         print("Save statistic into file?(yes to show):")
         input_show = input()
         if input_show == "yes":
             a.print_result()
             a.save_result()
-            print("Data saved to files")
+            print("saved")
     if n == 2:
         string = ''
         a = Recognizer('')
