@@ -6,8 +6,8 @@ import time
 
 class Myclass:
     stat = dict()
-    result_file = 'Regular\\result.txt'
-    time_file = 'Regular\\time.txt'
+    result_file = 'REG\\result.txt'
+    time_file = 'REG\\time.txt'
     input_file = 'input.txt'
     file = False
 
@@ -77,7 +77,7 @@ class Myclass:
         print('////////////\n')
 
     def save_result(self):
-        f = open(os.path.join(os.getcwd(), "Regular\\result.txt"), 'a')
+        f = open(os.path.join(os.getcwd(), "REG\\result.txt"), 'a')
         for key, item in self.stat.items():
             f.write(key + ' - ' + str(item) + '\n')
         self.f.close()

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d43255db-9c1b-42d8-81c7-7c406dfdba08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/REG/result" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/REG/time" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLY/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/lexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLY/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLY/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PLY/time.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PLYmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/PLYmain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regular/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Regular/time.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SMCmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/SMCmain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator2.py" beforeDir="false" afterPath="$PROJECT_DIR$/generator2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regular" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regularmain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regularmain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,30 +169,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="result+time" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585671967617">
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585756650066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585671967617" />
+    <state x="538" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585756650066" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585756505520">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585756505520" />
     <state x="424" y="7" key="CommitChangelistDialog2" timestamp="1585746292143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585746292143" />
-    <state width="1515" height="112" key="GridCell.Tab.0.bottom" timestamp="1585747295091">
+    <state width="1515" height="127" key="GridCell.Tab.0.bottom" timestamp="1585756663164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="112" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585747295091" />
-    <state width="1515" height="112" key="GridCell.Tab.0.center" timestamp="1585747295090">
+    <state width="1515" height="127" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585756663164" />
+    <state width="1515" height="127" key="GridCell.Tab.0.center" timestamp="1585756663164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="112" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585747295090" />
-    <state width="1515" height="112" key="GridCell.Tab.0.left" timestamp="1585747295090">
+    <state width="1515" height="127" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585756663164" />
+    <state width="1515" height="127" key="GridCell.Tab.0.left" timestamp="1585756663164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="112" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585747295090" />
-    <state width="1515" height="112" key="GridCell.Tab.0.right" timestamp="1585747295091">
+    <state width="1515" height="127" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585756663164" />
+    <state width="1515" height="127" key="GridCell.Tab.0.right" timestamp="1585756663164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="112" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585747295091" />
+    <state width="1515" height="127" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585756663164" />
     <state width="1515" height="222" key="GridCell.Tab.1.bottom" timestamp="1585675540735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
