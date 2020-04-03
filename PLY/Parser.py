@@ -7,11 +7,11 @@ class Parser:
     tokens = lexer.Lexer.tokens
 
     def __init__(self):
-        self._lexer = lexer.Lexer()
-        self._parser = yacc.yacc(module=self, optimize=1, debug=False, write_tables=False)
+        self.lexer = lexer.Lexer()
+        self.parser = yacc.yacc(module=self, optimize=1, debug=False, write_tables=False)
         self._result = {}
         self.flag = False
-        self._j = 0
+        self.j = 0
 
     def p_string(self, p):
         """string : DISK WAY TYPE NL
@@ -32,10 +32,10 @@ class Parser:
             self.result('catalog')
         self.flag = True
         if self.flag == True:
-            self._j += 1
+            self.j += 1
 
     def get_j(self):
-        return self._j
+        return self.j
 
     def result(self, key):
         if self._result.get(key) is None:
@@ -66,15 +66,15 @@ class Parser:
     def p_error(self, p):
         pass
 
-    def Check(self, _str, _file=False):
-        if _file == False:
+    def Check(self, s, f=False):
+        if f == False:
             self._result.clear()
         self.flag = False
-        _res = self._parser.parse(_str)
-        return _str
+        _res = self.parser.parse(s)
+        return s
 
-# data = '''C:\\ddvsdv\\.r
+# string = '''C:\\ddvsdv\\.r
 # '''
 # y = Parser()
-# y.Check(data)
+# y.Check(string)
 # print(y.flag)

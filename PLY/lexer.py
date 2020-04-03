@@ -50,7 +50,7 @@ class Lexer:
 # '''
 #
 # a = Lexer()
-# a.input(data)
+# a.input(string)
 # while True:
 #     tok = a.token()
 #     if not tok:

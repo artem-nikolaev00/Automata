@@ -25,7 +25,7 @@ class RecognizerPLY(object):
         n = time.perf_counter()
 
         for line in f_in.readlines():
-            _res = self.parser.Check(line, _file=True)
+            _res = self.parser.Check(line, f=True)
             if self.parser.flag:
                 f_out.write(line.rstrip('\n') + ' - TRUE\n')
             else:
